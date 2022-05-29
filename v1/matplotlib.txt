@@ -1,3 +1,4 @@
+pip install matplotlib
 Collecting matplotlib
   Downloading matplotlib-3.5.2-cp38-cp38-win_amd64.whl (7.2 MB)
      |████████████████████████████████| 7.2 MB 3.2 MB/s
