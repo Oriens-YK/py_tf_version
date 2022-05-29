@@ -1,0 +1,12 @@
+(tf25_py38) D:\git\covid19>pip install pandas
+Collecting pandas
+  Downloading pandas-1.4.2-cp38-cp38-win_amd64.whl (10.6 MB)
+     |████████████████████████████████| 10.6 MB 2.2 MB/s
+Requirement already satisfied: numpy>=1.18.5 in c:\users\seawa\anaconda3\envs\tf25_py38\lib\site-packages (from pandas) (1.22.3)
+Collecting pytz>=2020.1
+  Downloading pytz-2022.1-py2.py3-none-any.whl (503 kB)
+     |████████████████████████████████| 503 kB 3.2 MB/s
+Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\seawa\anaconda3\envs\tf25_py38\lib\site-packages (from pandas) (2.8.2)
+Requirement already satisfied: six>=1.5 in c:\users\seawa\anaconda3\envs\tf25_py38\lib\site-packages (from python-dateutil>=2.8.1->pandas) (1.16.0)
+Installing collected packages: pytz, pandas
+Successfully installed pandas-1.4.2 pytz-2022.1
