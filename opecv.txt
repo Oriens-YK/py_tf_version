@@ -1,0 +1,9 @@
+(py38) C:\Users\seawa>pip install opencv-python
+Collecting opencv-python
+  Downloading opencv_python-4.6.0.66-cp36-abi3-win_amd64.whl (35.6 MB)
+     |████████████████████████████████| 35.6 MB 939 kB/s
+Collecting numpy>=1.17.3
+  Downloading numpy-1.22.4-cp38-cp38-win_amd64.whl (14.8 MB)
+     |████████████████████████████████| 14.8 MB 930 kB/s
+Installing collected packages: numpy, opencv-python
+Successfully installed numpy-1.22.4 opencv-python-4.6.0.66
