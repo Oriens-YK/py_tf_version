@@ -1,0 +1,25 @@
+(py38) C:\Users\seawa>pip install pyinstaller
+Collecting pyinstaller
+  Using cached pyinstaller-5.1-py3-none-win_amd64.whl (1.2 MB)
+Collecting pywin32-ctypes>=0.2.0
+  Downloading pywin32_ctypes-0.2.0-py2.py3-none-any.whl (28 kB)
+Requirement already satisfied: setuptools in c:\users\seawa\anaconda3\envs\py38\lib\site-packages (from pyinstaller) (61.2.0)
+Collecting pyinstaller-hooks-contrib>=2021.4
+  Using cached pyinstaller_hooks_contrib-2022.7-py2.py3-none-any.whl (234 kB)
+Collecting altgraph
+  Using cached altgraph-0.17.2-py2.py3-none-any.whl (21 kB)
+Collecting pefile>=2017.8.1
+  Using cached pefile-2022.5.30.tar.gz (72 kB)
+Collecting future
+  Downloading future-0.18.2.tar.gz (829 kB)
+     |████████████████████████████████| 829 kB 252 kB/s
+Building wheels for collected packages: pefile, future
+  Building wheel for pefile (setup.py) ... done
+  Created wheel for pefile: filename=pefile-2022.5.30-py3-none-any.whl size=69376 sha256=33dd005da3e585cc343e16cf022a1fb9aa7b68591e29ab490cad2e1729d184d3
+  Stored in directory: c:\users\seawa\appdata\local\pip\cache\wheels\c7\ca\2c\b2bc3360e75954899f344606ea58a307d8f3a7060899b7b7fd
+  Building wheel for future (setup.py) ... done
+  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491070 sha256=a49bc353b4dd64a20ebe1fdaf6c06aa2adb4c85b0c964d32b751b53da769e3a6
+  Stored in directory: c:\users\seawa\appdata\local\pip\cache\wheels\8e\70\28\3d6ccd6e315f65f245da085482a2e1c7d14b90b30f239e2cf4
+Successfully built pefile future
+Installing collected packages: future, pywin32-ctypes, pyinstaller-hooks-contrib, pefile, altgraph, pyinstaller
+Successfully installed altgraph-0.17.2 future-0.18.2 pefile-2022.5.30 pyinstaller-5.1 pyinstaller-hooks-contrib-2022.7 pywin32-ctypes-0.2.0
