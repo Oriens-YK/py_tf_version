@@ -1,0 +1,47 @@
+(tf29_py38) C:\Users\seawa>pip install tensorflow-datasets
+Collecting tensorflow-datasets
+  Downloading tensorflow_datasets-4.6.0-py3-none-any.whl (4.3 MB)
+     ---------------------------------------- 4.3/4.3 MB 260.3 kB/s eta 0:00:00
+Collecting dill
+  Downloading dill-0.3.5.1-py2.py3-none-any.whl (95 kB)
+     ---------------------------------------- 95.8/95.8 kB 545.1 kB/s eta 0:00:00
+Requirement already satisfied: six in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from tensorflow-datasets) (1.16.0)
+Collecting tensorflow-metadata
+  Downloading tensorflow_metadata-1.9.0-py3-none-any.whl (51 kB)
+     ---------------------------------------- 51.0/51.0 kB 647.2 kB/s eta 0:00:00
+Collecting etils[epath]
+  Downloading etils-0.6.0-py3-none-any.whl (98 kB)
+     ---------------------------------------- 98.1/98.1 kB 140.5 kB/s eta 0:00:00
+Requirement already satisfied: protobuf>=3.12.2 in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from tensorflow-datasets) (3.19.4)
+Collecting importlib-resources
+  Downloading importlib_resources-5.9.0-py3-none-any.whl (33 kB)
+Requirement already satisfied: numpy in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from tensorflow-datasets) (1.23.1)
+Requirement already satisfied: requests>=2.19.0 in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from tensorflow-datasets) (2.28.1)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting tqdm
+  Downloading tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+     ---------------------------------------- 78.4/78.4 kB 311.5 kB/s eta 0:00:00
+Requirement already satisfied: absl-py in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from tensorflow-datasets) (1.1.0)
+Collecting promise
+  Downloading promise-2.3.tar.gz (19 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: termcolor in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from tensorflow-datasets) (1.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from requests>=2.19.0->tensorflow-datasets) (2022.6.15)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from requests>=2.19.0->tensorflow-datasets) (3.3)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from requests>=2.19.0->tensorflow-datasets) (1.26.10)
+Requirement already satisfied: charset-normalizer<3,>=2 in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from requests>=2.19.0->tensorflow-datasets) (2.1.0)
+Requirement already satisfied: zipp in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from etils[epath]->tensorflow-datasets) (3.8.1)
+Collecting googleapis-common-protos<2,>=1.52.0
+  Downloading googleapis_common_protos-1.56.4-py2.py3-none-any.whl (211 kB)
+     ---------------------------------------- 211.7/211.7 kB 1.1 MB/s eta 0:00:00
+Collecting colorama
+  Downloading colorama-0.4.5-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: typing_extensions in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from etils[epath]->tensorflow-datasets) (4.3.0)
+Building wheels for collected packages: promise
+  Building wheel for promise (setup.py) ... done
+  Created wheel for promise: filename=promise-2.3-py3-none-any.whl size=21503 sha256=9d156b85213d77ee776c14d2131bb814530a0360c1e36356c51daa4d3356eb62
+  Stored in directory: c:\users\seawa\appdata\local\pip\cache\wheels\54\aa\01\724885182f93150035a2a91bce34a12877e8067a97baaf5dc8
+Successfully built promise
+Installing collected packages: toml, promise, importlib-resources, googleapis-common-protos, etils, dill, colorama, tqdm, tensorflow-metadata, tensorflow-datasets
+Successfully installed colorama-0.4.5 dill-0.3.5.1 etils-0.6.0 googleapis-common-protos-1.56.4 importlib-resources-5.9.0 promise-2.3 tensorflow-datasets-4.6.0 tensorflow-metadata-1.9.0 toml-0.10.2 tqdm-4.64.0

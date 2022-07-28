@@ -1,0 +1,10 @@
+(tf29_py38) C:\Users\seawa>pip install tensorflow-addons
+Collecting tensorflow-addons
+  Downloading tensorflow_addons-0.17.1-cp38-cp38-win_amd64.whl (758 kB)
+     ---------------------------------------- 758.1/758.1 kB 957.6 kB/s eta 0:00:00
+Collecting typeguard>=2.7
+  Downloading typeguard-2.13.3-py3-none-any.whl (17 kB)
+Requirement already satisfied: packaging in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from tensorflow-addons) (21.3)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\seawa\anaconda3\envs\tf29_py38\lib\site-packages (from packaging->tensorflow-addons) (3.0.9)
+Installing collected packages: typeguard, tensorflow-addons
+Successfully installed tensorflow-addons-0.17.1 typeguard-2.13.3
