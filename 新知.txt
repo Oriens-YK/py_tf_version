@@ -1,0 +1,10 @@
+https://cloud.tencent.com/developer/news/666055
+1080Ti 6.1 
+YOLOv5s 的運行速度為 52.8 FPS
+Faser RCNN ResNet 50 21.7 FPS
+
+效能
+https://developer.nvidia.com/cuda-gpus#compute
+1080Ti 6.1 
+A30 8
+Tesla M40 5.2 5FPS
