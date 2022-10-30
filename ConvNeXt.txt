@@ -1,0 +1,4 @@
+https://zhuanlan.zhihu.com/p/458016349?utm_id=0
+]隨著數據量和模型大小增加，性能同比提升
+https://zhuanlan.zhihu.com/p/149564248
+depth-wise 卷積
